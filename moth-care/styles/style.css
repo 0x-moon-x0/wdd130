@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #faeee1;
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #947735;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo-home-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #e6eb85;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #e6eb85;
+    color: #947735;
+}
+
+a {
+    font-family: Handlee, Arial, sans-serif;
+}
+
+footer {
+    background-color: #947735;
+    color: #e6eb85;
+    font-family: Handlee, Arial, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #e6eb85;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d4c04d;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+/*----------HOME PAGE----------*/
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+
+#banner-img {
+    width: 100%;
+}
+
+.welcome-msg {
+    background-color: #A53860;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 3/10;
+    grid-row: 2/3;
+    margin-top: 70px;
+}
+
+.welcome-msg h2 {
+    color: #F9DBBD;
+    font-family: Handlee, Arial, sans-serif;
+}
+
+.welcome-msg p {
+    color: #F9DBBD;
+    font-family: "Indie Flower", Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-bottom: 15px;
+}
+
+.question-1 {
+    background-color: #FFA5AB;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/6;
+    grid-row: 4/7;
+    text-align: left;
+    margin-right: 70px;
+    margin-top: 200px;
+}
+
+.question-1 h2 {
+    color: #450920;
+    font-family: Handlee, Arial, sans-serif;
+}
+
+.question-1 p {
+    color: #450920;
+    font-family: "Indie Flower", Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-bottom: 15px;
+}
+
+#home-img-1 {
+    grid-column: 8/12;
+    grid-row: 5/6;
+    margin-top: 150px;
+    border: 10px solid #DA627D;
+}
+
+.question-2 {
+    background-color: #A53860;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 8/12;
+    grid-row: 8/11;
+    text-align: right;
+    margin-top: 150px;
+}
+
+.question-2 h2 {
+    color: #F9DBBD;
+    font-family: Handlee, Arial, sans-serif;
+}
+
+.question-2 p {
+    color: #F9DBBD;
+    font-family: "Indie Flower", Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-bottom: 15px;
+}
+
+.home-caterpillars-link {
+    background-color: #FFA5AB;
+    color: #A53860;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.home-caterpillars-link:hover {
+    background-color: #e6eb85;
+    color: #947735;
+}
+
+#home-img-2 {
+    grid-column: 1/5;
+    grid-row: 9/10;
+    margin-top: 150px;
+    border: 10px solid #DA627D;
+}
+
+.question-3 {
+    background-color: #FFA5AB;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/5;
+    grid-row: 12/15;
+    text-align: left;
+    margin-top: 170px;
+    margin-right: 70px;
+    margin-bottom: 90px;
+}
+
+.question-3 h2 {
+    color: #450920;
+    font-family: Handlee, Arial, sans-serif;
+}
+
+.question-3 p {
+    color: #450920;
+    font-family: "Indie Flower", Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-bottom: 15px;
+}
+
+#home-img-3 {
+    grid-column: 8/12;
+    grid-row: 13/14;
+    margin-top: 150px;
+    border: 10px solid #DA627D;
+}
+
+.guide-redirect {
+    background-color: #A53860;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 4/9;
+    grid-row: 16/17;
+    margin-top: 200px;
+}
+
+.guide-redirect h2 {
+    color: #F9DBBD;
+    font-family: Handlee, Arial, sans-serif;
+
+}
+
+.guide-redirect p {
+    color: #F9DBBD;
+    font-family: "Indie Flower", Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-bottom: 15px;
+}
+
+.home-guide-link {
+    background-color: #FFA5AB;
+    color: #A53860;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.home-guide-link:hover {
+    background-color: #e6eb85;
+    color: #947735;
+}
+
+/*----------CARE GUIDE PAGE----------*/
+
+/*----------CATERPILLARS PAGE----------*/
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
