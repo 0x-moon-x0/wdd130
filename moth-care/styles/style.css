@@ -475,6 +475,7 @@ footer .social img {
 }
 
 .container {
+    position: relative;
     grid-column: 10/16;
     grid-row: 11/12;
     margin-top: 100px;
@@ -482,30 +483,38 @@ footer .social img {
 }
 
 #dead {
+    display: block;
+    height: auto;
     border: 10px solid #DA627D;
 }
 
 .overlay {
-    grid-column: 10/16;
-    grid-row: 11/12;
-    margin-top: 100px;
-    margin-left: 55px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 87%;
     opacity: 1;
     transition: .5s ease;
     background-color: #DA627D;
-  }
+}
 
-  .container:hover .overlay {
+.container:hover .overlay {
     opacity: 0;
-  }
+}
   
-  .text {
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     color: #450920;
     font-family: Handlee, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
+}
 
 .cocoon {
     background-color: #A53860;
